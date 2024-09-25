@@ -1,11 +1,30 @@
-function getInputFieldValueById(id){
-    const inputValue = document.getElementById(id).value;
-    const inputValueNumber = parseFloat(inputValue);
-    return inputValueNumber;
+
+// Home Button to go homepage
+document.getElementById('home').addEventListener("click", function(){
+    // window.location.href='index.html';
+    window.location.href='index.html';
+});
+
+// input field function
+function donateInput(id){
+  const donateValue =parseFloat(document.getElementById(id).value);
+  return donateValue;
 }
 
-function getTextFieldValueById(id){
-    const textValue = document.getElementById(id).value;
-    const textValueNumber = parseFloat(textValue);
-    return textValueNumber;
-}
+// history button section
+
+// function donationHistory(id){
+//   const historySection = document.getElementById('id')
+//   const h4 = document.createElement("h4").innerText="hello";
+  
+//   h4.appendChild(historySection);
+
+// }
+
+
+
+
+
+
+
+
