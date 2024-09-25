@@ -44,7 +44,7 @@
     // history container
     const date = new Date();
     const p = document.createElement('p');
-    p.style.border='2px solid blue'
+    p.style.border='1px solid gray'
     p.style.borderRadius='10px'
     p.style.padding='15px'
     p.style.margin='10px 0px'
